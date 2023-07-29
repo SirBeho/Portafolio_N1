@@ -4,7 +4,7 @@ const divPrueba = document.querySelector(".projects-grid");
 
   
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', './projets/');
+  xhr.open('GET', './');
   xhr.onload = function() {
     if (xhr.status === 200) {
       var parser = new DOMParser();

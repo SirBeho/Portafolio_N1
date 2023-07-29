@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./main.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="principal">
+        <label >Nombre<input type="text" id="nombre-alumno"></label>
+
+        <label >Sexo<select id="sexo-alumno">
+            <option value=""></option>
+            <option value="m">Masculino</option>
+            <option value="f">Femenino</option> </select>
+        </label>
+
+        <div>
+          <button id="add">Añadir Alumno</button>
+          <button id="mostrar">Mostrar</button>
+        </div>
+       
+  </div>
+      
+    
+  <div class="lista">
+    <h2>Alumnos A</h2>
+    <ul id="alumnos-a">
+      <div class="linea"><p class="nombre">Nombres</p><p>Sexo</p></div>
+    </ul>
+
+    <h2>Alumnos B</h2>
+    <ul id="alumnos-b">
+      <div class="linea"><p class="nombre">Nombres</p><p>Sexo</p></div>
+    </ul>
+
+  </div>
+</body>
+</html>

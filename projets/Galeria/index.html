@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    
+    <header class="header" id="inicio">
+        <img class="hamburguer" src="img/hamburguesa.svg" alt="">
+        <nav class="menu-navegacion">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Servicio</a>
+                <a href="#galeria">Portafolio</a>
+                <a href="#expertos">Especializados</a>
+                <a href="#footer">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Convertimos tus ideas en una realidad</h1>
+            <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        
+    </header>
+    <main>
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="img/checklist.svg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Diseño y desarrollo web personalizado</h3>
+                        <p> Crear un sitio web único y adaptado a las necesidades del cliente, con características personalizadas y programación a medida.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Optimización de motores de búsqueda (SEO)</h3>
+                        <p> Mejorar la visibilidad del sitio web en los motores de búsqueda, mediante la optimización de contenidos, palabras clave y la estructura del sitio.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Mantenimiento y soporte web</h3>
+                        <p> Proporcionar mantenimiento y soporte técnico para el sitio web, asegurando su correcto funcionamiento y seguridad.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">4</span>Desarrollo de aplicaciones web</h3>
+                        <p> Creación de aplicaciones web personalizadas, como sistemas de gestión de contenidos o plataformas de comercio electrónico.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">5</span>Diseño y desarrollo de bases de datos</h3>
+                        <p> Diseño, desarrollo y mantenimiento de bases de datos para el sitio web, con programación, integración, optimización y de seguridad.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="img/uno.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/dos.jpg" class="img-galeria" alt="">
+                    <img src="img/tres.jpg" class="img-galeria" alt="">
+                    <img src="img/cuatro.jpg" class="img-galeria" alt="">
+                    <img src="img/cinco.jpg" class="img-galeria" alt="">
+                    <img src="img/seis.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="imagen-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/pie_chart.svg" alt="">
+                    <h3 class="n-expert">Analisis</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/search_engine.svg" alt="">
+                    <h3 class="n-expert">Administracion</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/security.svg" alt="">
+                    <h3 class="n-expert">Seguridad</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">BT Developers</h2>
+                    <p>Somos expertos en la creación de tus sueños</p>
+                </div>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/benjamintavarez000/"  target="_blank" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/benjamin-tavarez-cruceta-052aa623b/" target="_blank" class="social-media-icon">
+                        <i class='bx bxl-linkedin'></i>
+                    </a>
+                    <a href="https://github.com/SirBeho" target="_blank" class="social-media-icon">
+                        <i class='bx bxl-github' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <script src="js/menu.js"></script>
+    <script src="js/verImag"></script>
+</body>
+</html>

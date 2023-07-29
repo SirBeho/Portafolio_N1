@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+p {
+  margin: 0;
+}
+
+.main {
+  background-color: hsl(0, 0%, 94%);
+}
+
+.calculadora {
+  border-radius: 1rem;
+  border-bottom-right-radius: 12rem;
+}
+
+label {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: hsl(0, 1%, 44%);
+  transition: color 0.5s;
+}
+
+label.error {
+  color: hsl(0, 100%, 67%);
+}
+
+label > p {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0%;
+  width: max-content;
+  font-style: italic;
+  font-size: 0.8rem;
+  color: hsl(0, 100%, 67%);
+  transition: bottom 1s;
+}
+
+label.error > p {
+  visibility: visible;
+  bottom: -25%;
+}
+
+input {
+  width: 9rem;
+  height: 4rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  transition: border-color 1s;
+}
+
+input:focus {
+  border: solid rgb(168 85 247)  2px!important;
+  outline: none;
+}
+
+.separador > div {
+  width: 580px;
+}
+
+button {
+  background-color: rgb(168 85 247);
+  background-image: none;
+  transition: background-color 0.5s;
+}
+
+button:hover {
+  background-color: black;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+}
+
+.numeros {
+  font-size: 4rem;
+  font-weight: 800;
+  font-style: italic;
+  color: black;
+}
+
+.num {
+  color: rgb(168 85 247);
+}
+
+.attribution {
+  font-family: sans-serif;
+  color: #000000;
+  padding-top: 5rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.attribution a {
+  font-family: sans-serif;
+  color: #854d0e;
+}

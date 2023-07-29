@@ -1,0 +1,107 @@
+           /* Definición de estilo para el cuerpo del documento */
+body {
+	font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to top, #5b86e5 0%, #36d1dc 20%,#36d1dc 80%,#5b86e5 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #2b2d42;
+}
+
+/* Estilo para la sección principal */
+.principal {
+	background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+	
+    display: inline-table;
+}
+
+/* Estilo para la sección de información adicional */
+#info {
+   float: right;
+    text-align: right;
+    font-size: 18px;
+    color: #2b2d42;
+}
+
+/* Estilo para la columna izquierda */
+#izq {
+    width: 40%;
+}
+
+/* Estilo para la columna derecha */
+#der {
+    width: 59%;
+    float: right;
+}
+
+/* Estilo para los elementos de la sección principal */
+.pri {
+    display: inline-block;
+    border: none;
+    padding: 20px;
+    text-align: justify;
+    box-sizing: border-box;
+    background: #5b87e517;
+}
+
+/* Estilo para los fieldsets */
+fieldset {
+	
+    margin-bottom: 10px;
+	border: none;
+}
+
+/* Estilo para los títulos de los fieldsets */
+legend {
+	text-align: center;
+    color: #fff;
+    font-weight: bolder;
+    background-color: #5b86e5;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las imágenes */
+img {
+    
+	text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    width: 200px;
+	height: 250px;
+   
+	margin-bottom: 10px;
+
+}
+
+/* Estilo para la fila */
+#fila {
+    display: table;
+    width: 100%;
+    border-spacing: 10px;
+    text-align: center;
+}
+
+/* Estilo para la columna */
+#columna {
+    color: #2b2d42;
+    font-weight: bold;
+    display: table-cell;
+	
+}
+
+/* Estilo para el tamaño de la fuente */
+font {
+    font-size: 20px;
+	color: #5b86e5;
+}
+font.title{
+	font-size: 40;
+	font-weight: bold;
+}

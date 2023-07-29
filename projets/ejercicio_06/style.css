@@ -1,0 +1,77 @@
+* {
+    border-radius: 5px;
+}
+
+body{
+    font-style: oblique;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    background-image: linear-gradient(to right, #5b87e567 0%, white 20%,white 80%,#5b87e567 100%);
+    color: #2b2d42;
+}
+.titulo{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgb(183, 175, 175);
+    margin-top: 20px;
+}
+.separacion{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(183, 175, 175);
+    margin-top: 20px;
+}
+.contenedor1{
+    display:flex ;
+    justify-content: space-between ;
+}
+.contenedor1>.iten{
+    flex-basis: 20%;
+    text-align: center;
+    height: 50px;
+    border: solid black 1px;
+    background-color: aqua;
+}
+.contenedor2{
+    display:flex ;
+    flex-direction: column;  
+}
+.contenedor2>.iten{
+    text-align: center;
+    height: 50px;
+    padding: 10px 30px;
+    border: solid black 1px;
+    background-color:  aquamarine;
+}
+.contenedor3{
+    display:flex ;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: right;
+}
+.contenedor3>.iten{
+    height: 50px;
+    padding: 10px 30px;
+    border: solid black 1px;
+    background-color: antiquewhite; 
+}
+.contenedor4{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.contenedor4>.iten{
+    height: 50px;
+    padding: 10px 30px;
+    border: solid black 1px;
+    background-color: darkorchid;
+}
+.teoria{
+    border: solid black 2px;
+}
+
+
+

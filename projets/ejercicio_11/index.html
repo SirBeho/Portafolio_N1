@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items:  center;
+            min-height: 100vh;
+            background-color: rgba(0, 0, 0, 0.637);
+            flex-direction: column;
+            font-size: 12px; 
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+           
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           
+            border: solid black 1px;
+            border-radius: 10px;
+            padding: 20px;
+            gap: 15px;
+            max-width: 50%;
+            margin: 15px 0px;
+            
+            background-image: linear-gradient(900deg, #9bd4fe 0, #46a0d7 50%, #006fb2 100%);
+        }
+        fieldset{
+            width: 100%;
+            border: none    ;
+            border: solid black 1px;
+            border-radius: 5px;
+            padding: 5px;
+            font-size: 25px; 
+            text-align: center;
+        }
+          
+        button{
+            align-items: center;
+            min-width: 100px;
+            height: 50px;
+            background-color: #ff63f1;
+            border-radius: 15px;
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        #resultado{
+            font-size: 30px;
+            font-weight: 800;
+            display: flex;
+            justify-content: center;
+            align-items:  center;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 15px;
+            padding: 0px 10px;
+           
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="post">
+        <h1>Evaluando en una escala del 1 al 10, reponda las siguietnes preguntas para la solicitud del prestamo</h1>
+        <fieldset>
+            
+            <p>1) Como califica el tamaño del préstamo?</p>
+
+            <label for=""><input type="radio" name="p1_pre1" value="1" id="p1_num1">1</input></label>
+            <label for=""><input type="radio" name="p1_pre1" value="2" id="p1_num2">2</input></label>
+            <label for=""><input type="radio" name="p1_pre1" value="3" id="p1_num3">3</input></label>
+            <label for=""><input type="radio" name="p1_pre1" value="4" id="p1_num4">4</input></label>
+            <label for=""><input type="radio" name="p1_pre1" value="5" id="p1_num5">5</input></label>
+            <label for=""><input type="radio" name="p1_pre1" value="6" id="p1_num6">6</input></label>
+            <label for=""><input type="radio" name="p1_pre1" value="7" id="p1_num7">7</input></label>
+            <label for=""><input type="radio" name="p1_pre1" value="8" id="p1_num8">8</input></label>
+            <label for=""><input type="radio" name="p1_pre1" value="9" id="p1_num9">9</input></label>
+            <label for=""><input type="radio" name="p1_pre1" value="10"id="p1_num10">10</input></label>
+        </fieldset>
+        <fieldset>
+            <p>2) Como esta su historial de crédito?</p>
+            <label for=""><input type="radio" name="p2_pre1" value="1"  id="p2_num1">1</input></label>
+            <label for=""><input type="radio" name="p2_pre1" value="2"  id="p2_num2">2</input></label>
+            <label for=""><input type="radio" name="p2_pre1" value="3"  id="p2_num3">3</input></label>
+            <label for=""><input type="radio" name="p2_pre1" value="4"  id="p2_num4">4</input></label>
+            <label for=""><input type="radio" name="p2_pre1" value="5"  id="p2_num5">5</input></label>
+            <label for=""><input type="radio" name="p2_pre1" value="6"  id="p2_num6">6</input></label>
+            <label for=""><input type="radio" name="p2_pre1" value="7"  id="p2_num7">7</input></label>
+            <label for=""><input type="radio" name="p2_pre1" value="8"  id="p2_num8">8</input></label>
+            <label for=""><input type="radio" name="p2_pre1" value="9"  id="p2_num9">9</input></label>
+            <label for=""><input type="radio" name="p2_pre1" value="10" id="p2_num10">10</input></label>
+        </fieldset>
+        <fieldset>
+            <p>3) ue tan bien son sus ingreso?</p>
+            <label for=""><input type="radio" name="p3_pre1" value="1"  id="p3_num1">1</input></label>
+            <label for=""><input type="radio" name="p3_pre1" value="2"  id="p3_num2">2</input></label>
+            <label for=""><input type="radio" name="p3_pre1" value="3"  id="p3_num3">3</input></label>
+            <label for=""><input type="radio" name="p3_pre1" value="4"  id="p3_num4">4</input></label>
+            <label for=""><input type="radio" name="p3_pre1" value="5"  id="p3_num5">5</input></label>
+            <label for=""><input type="radio" name="p3_pre1" value="6"  id="p3_num6">6</input></label>
+            <label for=""><input type="radio" name="p3_pre1" value="7"  id="p3_num7">7</input></label>
+            <label for=""><input type="radio" name="p3_pre1" value="8"  id="p3_num8">8</input></label>
+            <label for=""><input type="radio" name="p3_pre1" value="9"  id="p3_num9">9</input></label>
+            <label for=""><input type="radio" name="p3_pre1" value="10" id="p3_num10">10</input></label>
+        </fieldset>
+        <fieldset>
+            <p>4) como evalua su pago inicial?</p>
+            <label for=""><input type="radio" name="p4_pre1" value="1"  id="p4_num1">1</input></label>
+            <label for=""><input type="radio" name="p4_pre1" value="2"  id="p4_num2">2</input></label>
+            <label for=""><input type="radio" name="p4_pre1" value="3"  id="p4_num3">3</input></label>
+            <label for=""><input type="radio" name="p4_pre1" value="4"  id="p4_num4">4</input></label>
+            <label for=""><input type="radio" name="p4_pre1" value="5"  id="p4_num5">5</input></label>
+            <label for=""><input type="radio" name="p4_pre1" value="6"  id="p4_num6">6</input></label>
+            <label for=""><input type="radio" name="p4_pre1" value="7"  id="p4_num7">7</input></label>
+            <label for=""><input type="radio" name="p4_pre1" value="8"  id="p4_num8">8</input></label>
+            <label for=""><input type="radio" name="p4_pre1" value="9"  id="p4_num9">9</input></label>
+            <label for=""><input type="radio" name="p4_pre1" value="10" id="p4_num10">10</input></label>
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <p id="resultado"></p>
+    <script src="./main.js"></script>
+</body>
+</html>

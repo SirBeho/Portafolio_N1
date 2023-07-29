@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.principal {
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.material-symbols-outlined {
+    padding-top: 10px;
+    font-size: 30px;
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 800,
+        'GRAD' 5,
+        'opsz' 200;
+}
+
+.material-icon-orange {
+    color: #F2994A;
+}
+
+.material-icon-orange>div {
+    color: #F2994A;
+}
+
+.naterial-icon-reloj {
+    color: #4F4F4F;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+span {
+     font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+}
+
+.contenedor-principal {
+    max-width: 970px;
+    margin: auto;
+}
+
+.superior {
+    padding-top: 45px;
+    display: block;
+}
+
+.contenido {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contenido span {
+    padding-left: 10px;
+    max-width: 600px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+}
+
+.imagen_chees {
+    border-radius: 15px;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.medio {
+    display: flex;
+    flex-direction: row;
+}
+
+.izq {
+    width: 61%;
+}
+
+.ingrediente {
+    padding-bottom: 20px;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: row;
+    grid-gap: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.cuadrito {
+    box-sizing: border-box;
+    width: 21px;
+    height: 21px;
+    padding-right: 21px;
+    border: 1.5px solid #828282;
+    border-radius: 4px;
+}
+
+.instrucctions>div>span {
+    padding-bottom: 26px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #333333;
+}
+
+.cuadro {
+    box-sizing: border-box;
+    background: #F2994A;
+    border-radius: 6px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.cuadro span {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    width: 36px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.link {
+    padding-top: 20px;
+}
+
+.link>span {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    color: #BDBDBD;
+}
+
+.der {
+    width: 39%;
+    display: flex;
+    justify-content: right;
+    align-items: top;
+}
+
+.tiempos {
+    padding: 20px 20px;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.131);
+    
+}
+
+.iten {
+    gap: 5px;
+    display: flex;
+    padding: 22px 30px;
+    flex-direction: row;
+}
+
+.iten>div {
+    display: flex;
+    text-align: left;
+    padding-left: 5px;
+    flex-direction: column;
+}
+.iten span{
+    line-height: 18px;
+}
+
+.up {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #BDBDBD;
+   
+}
+
+.down {
+    font-family: 'Montserrat';
+    color: #F2994A;
+    font-weight: 500;
+    font-size: 14px;
+    color: #333333;
+}
+
+.down_orange {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    color: #F2994A;
+}
+
+.pie {
+    padding-top: 100px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.pie>span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #828282;
+    }

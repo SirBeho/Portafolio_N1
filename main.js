@@ -5,7 +5,9 @@ const divPrueba = document.querySelector(".projects-grid");
  const url = window.location.origin+window.location.pathname+"projets";
 
   console.log(url)
-  /* var xhr = new XMLHttpRequest();
+  console.log(window.location.origin)
+  console.log(window.location.pathname)
+   var xhr = new XMLHttpRequest();
   xhr.open('GET', url);
   console.log(xhr)
   xhr.onload = function() {
@@ -48,5 +50,5 @@ const divPrueba = document.querySelector(".projects-grid");
   };
 
   xhr.send();
-  */
+  
 } 

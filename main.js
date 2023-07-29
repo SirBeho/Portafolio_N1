@@ -2,11 +2,40 @@ const divPrueba = document.querySelector(".projects-grid");
 
   function mostrar(tipo) {
   
- const url = window.location.origin+"/projets";
+    console.log(window.location.origin)
+    console.log(window.location.pathname)
 
-  console.log(url)
-  console.log(window.location.origin)
-  console.log(window.location.pathname)
+    const url = window.location.origin;
+    console.log(url)
+    mostrado(url)
+
+    console.log("")
+    mostrado("")
+
+    url = window.location.origin+"/projets";
+    console.log(url)
+    mostrado(url)
+
+    url = window.location.pathname+"/projets";
+    console.log(url)
+    mostrado(url)
+
+    url = window.location.origin+window.location.pathname;
+    console.log(url)
+    mostrado(url)
+
+    url = window.location.origin+window.location.pathname+"projets";
+    console.log(url)
+    mostrado(url)
+
+    url = window.location.origin+window.location.pathname+"projets/";
+    console.log(url)
+    mostrado(url)
+} 
+
+
+function mostrado(url){
+ 
     
    var xhr = new XMLHttpRequest();
   xhr.open('GET', url);
@@ -19,7 +48,6 @@ const divPrueba = document.querySelector(".projects-grid");
       divPrueba.innerHTML = "";
       enlaces.forEach((enlace) => {
           let href = enlace.getAttribute('href').toLowerCase();
-      
         if (href.length > 16 && href.includes(tipo)) {
           
            if(tipo == ''  && (href.includes('tarea') || href.includes('ejercicio')))
@@ -51,5 +79,4 @@ const divPrueba = document.querySelector(".projects-grid");
   };
 
   xhr.send();
-  
-} 
+}

@@ -1,12 +1,12 @@
 const divPrueba = document.querySelector(".projects-grid");
 
   function mostrar(tipo) {
-    console.log(window.location.origin)
+    console.log()
+ const url = window.location.origin+window.location.pathname+"projets";
 
-console.log(window.location.pathname)
-  /* 
+  console.log(url)
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', './projets');
+  xhr.open('GET', url);
   console.log(xhr)
   xhr.onload = function() {
     if (xhr.status === 200) {
@@ -48,5 +48,5 @@ console.log(window.location.pathname)
   };
 
   xhr.send();
- */
+ 
 } 

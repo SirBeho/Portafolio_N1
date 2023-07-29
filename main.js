@@ -2,7 +2,7 @@ const divPrueba = document.querySelector(".projects-grid");
 
   function mostrar(tipo) {
   
- const url = window.location.origin+window.location.pathname+"projets";
+ const url = window.location.origin+"projets";
 
   console.log(url)
   console.log(window.location.origin)

@@ -7,14 +7,12 @@ const divPrueba = document.querySelector(".projects-grid");
         url = window.location.origin;
         console.log(url)
         break;
-
       case 2:
-        
-        url = ""
-        break;
-
-      case 3:
         url = window.location.origin+"/projets";
+        console.log(url)
+        break;
+      case 3:
+        url = window.location.pathname;
         console.log(url)
         break;
       case 4:
@@ -29,9 +27,13 @@ const divPrueba = document.querySelector(".projects-grid");
         url = window.location.origin+window.location.pathname+"projets";
       console.log(url)
         break;
-
-      default:
-        console.log("Tipo no reconocido:", n);
+      case 7:
+        url = "";
+      console.log(url)
+        break;
+      case 8:
+        url = "/projets";
+      console.log(url)
         break;
     }
 

@@ -1,10 +1,13 @@
 const divPrueba = document.querySelector(".projects-grid");
 
   function mostrar(tipo) {
+    console.log(window.location.origin)
 
-  
+console.log(window.location.pathname)
+  /* 
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', '/projets');
+  xhr.open('GET', './projets');
+  console.log(xhr)
   xhr.onload = function() {
     if (xhr.status === 200) {
       var parser = new DOMParser();
@@ -45,5 +48,5 @@ const divPrueba = document.querySelector(".projects-grid");
   };
 
   xhr.send();
-
+ */
 } 

@@ -1,35 +1,42 @@
 const divPrueba = document.querySelector(".projects-grid");
 
-  function mostrar(tipo) {
-  
+  function mostrar(n,tipo) {
+    let url
+    switch (n) {
+      case 1:
+        url = window.location.origin;
+        console.log(url)
+        break;
+
+      case 2:
+        
+        url = ""
+        break;
+
+      case 3:
+        url = window.location.origin+"/projets";
+        console.log(url)
+        break;
+      case 4:
+        url = window.location.pathname+"/projets";
+        console.log(url)
+        break;
+      case 5:
+        url = window.location.origin+window.location.pathname;
+        console.log(url)
+        break;
+      case 6:
+        url = window.location.origin+window.location.pathname+"projets";
+      console.log(url)
+        break;
+
+      default:
+        console.log("Tipo no reconocido:", n);
+        break;
+    }
+
     console.log(window.location.origin)
     console.log(window.location.pathname)
-
-    let url = window.location.origin;
-    console.log(url)
-    mostrado(url,tipo)
-
-    console.log("")
-    mostrado("",tipo)
-
-    url = window.location.origin+"/projets";
-    console.log(url)
-    mostrado(url,tipo)
-
-    url = window.location.pathname+"/projets";
-    console.log(url)
-    mostrado(url,tipo)
-
-    url = window.location.origin+window.location.pathname;
-    console.log(url)
-    mostrado(url,tipo)
-
-    url = window.location.origin+window.location.pathname+"projets";
-    console.log(url)
-    mostrado(url,tipo)
-
-    url = window.location.origin+window.location.pathname+"projets/";
-    console.log(url)
     mostrado(url,tipo)
 } 
 

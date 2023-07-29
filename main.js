@@ -48,6 +48,8 @@ function mostrado(url){
       divPrueba.innerHTML = "";
       enlaces.forEach((enlace) => {
           let href = enlace.getAttribute('href').toLowerCase();
+            console.log(href)
+
         if (href.length > 16 && href.includes(tipo)) {
           
            if(tipo == ''  && (href.includes('tarea') || href.includes('ejercicio')))

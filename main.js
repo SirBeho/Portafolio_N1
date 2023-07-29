@@ -5,7 +5,7 @@ const divPrueba = document.querySelector(".projects-grid");
     console.log(window.location.origin)
     console.log(window.location.pathname)
 
-    const url = window.location.origin;
+    let url = window.location.origin;
     console.log(url)
     mostrado(url)
 

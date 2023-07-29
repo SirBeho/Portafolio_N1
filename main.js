@@ -7,6 +7,7 @@ const divPrueba = document.querySelector(".projects-grid");
   console.log(url)
   console.log(window.location.origin)
   console.log(window.location.pathname)
+    
    var xhr = new XMLHttpRequest();
   xhr.open('GET', url);
   console.log(xhr)

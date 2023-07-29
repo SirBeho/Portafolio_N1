@@ -7,34 +7,34 @@ const divPrueba = document.querySelector(".projects-grid");
 
     let url = window.location.origin;
     console.log(url)
-    mostrado(url)
+    mostrado(url,tipo)
 
     console.log("")
-    mostrado("")
+    mostrado("",tipo)
 
     url = window.location.origin+"/projets";
     console.log(url)
-    mostrado(url)
+    mostrado(url,tipo)
 
     url = window.location.pathname+"/projets";
     console.log(url)
-    mostrado(url)
+    mostrado(url,tipo)
 
     url = window.location.origin+window.location.pathname;
     console.log(url)
-    mostrado(url)
+    mostrado(url,tipo)
 
     url = window.location.origin+window.location.pathname+"projets";
     console.log(url)
-    mostrado(url)
+    mostrado(url,tipo)
 
     url = window.location.origin+window.location.pathname+"projets/";
     console.log(url)
-    mostrado(url)
+    mostrado(url,tipo)
 } 
 
 
-function mostrado(url){
+function mostrado(url,tipo){
  
     
    var xhr = new XMLHttpRequest();

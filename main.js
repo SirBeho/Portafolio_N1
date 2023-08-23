@@ -1,53 +1,12 @@
 const divPrueba = document.querySelector(".projects-grid");
 
-  function mostrar(n,tipo) {
-    let url
-    switch (n) {
-      case 1:
-        url = window.location.origin;
-        console.log(url)
-        break;
-      case 2:
-        url = window.location.origin+"/projets";
-        console.log(url)
-        break;
-      case 3:
-        url = window.location.pathname;
-        console.log(url)
-        break;
-      case 4:
-        url = window.location.pathname+"/projets";
-        console.log(url)
-        break;
-      case 5:
-        url = window.location.origin+window.location.pathname;
-        console.log(url)
-        break;
-      case 6:
-        url = window.location.origin+window.location.pathname+"projets";
-      console.log(url)
-        break;
-      case 7:
-        url = "";
-      console.log(url)
-        break;
-      case 8:
-        url = "/projets";
-      console.log(url)
-        break;
-    }
-
-    console.log(window.location.origin)
-    console.log(window.location.pathname)
-    mostrado(url,tipo)
-} 
 
 
-function mostrado(url,tipo){
+function mostrar(tipo){
  
     
    var xhr = new XMLHttpRequest();
-  xhr.open('GET', url);
+  xhr.open('GET','./projets');
   console.log(xhr)
   xhr.onload = function() {
     if (xhr.status === 200) {
